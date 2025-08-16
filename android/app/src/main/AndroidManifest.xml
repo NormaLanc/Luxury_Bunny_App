@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="lb_application"
+        android:label="Luxury Bunny"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
