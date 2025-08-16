@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1" # Use the latest stable version
   flutter_test:
     sdk: flutter
 
@@ -48,6 +49,13 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "/Users/normafant/Downloads/LB_Application/Luxury_Bunny_App/lb_application/icon/LB_Logo3.png" # Replace with your icon's path
+      # adaptive_icon_background: "#ffffff" # Optional: for adaptive icons
+      # adaptive_icon_foreground: "assets/icon/icon_foreground.png" # Optional: for adaptive icons
 
 # The following section is specific to Flutter packages.
 flutter:
